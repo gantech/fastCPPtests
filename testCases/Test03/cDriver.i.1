@@ -1,0 +1,32 @@
+nTurbinesGlob: 2
+dryRun:  False
+restart: False
+tStart:  0.0
+tEnd:    1.0
+tMax:    4.0
+ntStart: 0
+ntEnd:   160
+dtFAST:  0.00625
+nEveryCheckPoint: 160
+
+Turbine0:
+  procNo: 0
+  turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  num_force_pts_blade: 0
+  num_force_pts_tower: 0
+  numScOutputs: 0
+  numScInputs: 0
+  restart_filename: "banana"
+  FAST_input_filename: "t1_Test03.fst"
+  turb_id:  1
+
+Turbine1:
+  procNo: 0
+  turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  num_force_pts_blade: 0
+  num_force_pts_tower: 0
+  numScOutputs: 0
+  numScInputs: 0
+  restart_filename: "banana"
+  FAST_input_filename: "t2_Test03.fst"
+  turb_id:  2
