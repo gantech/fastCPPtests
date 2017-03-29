@@ -12,6 +12,7 @@ nEveryCheckPoint: 160
 Turbine0:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   numScOutputs: 0

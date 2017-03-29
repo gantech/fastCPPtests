@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Set these variables
-FAST_DIR=/home/gvijayak/nalu-gcc-5.2.0/packages/fastv8DriverProgram/fastv8/
-export nativeFAST=FAST_glin64_debug
-export cFAST=FAST_ProgC_glin64_debug
+FAST_DIR=/home/gvijayak/CurrentProjects/OpenFAST/install
+export nativeFAST=openfast
+export cFAST=openfastcpp
 
 
 
@@ -110,6 +110,26 @@ cp ${testDir}/testCases/Test05/5MW_Baseline ${runTestDir}/testCases/Test05/ -r
 cp ${testDir}/testCases/Test05/test05.sh ${runTestDir}/testCases/Test05/
 # run it...  
 ./test05.sh
+
+
+# #=============================================================================
+# # Test 06
+# #=============================================================================
+# if [ ! -d "${runTestDir}/testCases/Test06" ]; then
+#     mkdir ${runTestDir}/testCases/Test06
+# fi
+
+# cd ${runTestDir}/testCases/Test06
+# cp ${testDir}/testCases/Test06/makefile_DISCON_DLL ${runTestDir}/testCases/Test06/
+# cp ${testDir}/testCases/Test06/makefileSC ${runTestDir}/testCases/Test06/
+# cp ${testDir}/testCases/Test06/sc.c ${runTestDir}/testCases/Test06/
+# cp ${testDir}/testCases/Test06/t*Test06*fst ${runTestDir}/testCases/Test06/
+# cp ${testDir}/testCases/Test06/cDriver.i* ${runTestDir}/testCases/Test06/
+# cp ${testDir}/testCases/Test06/5MW_Baseline ${runTestDir}/testCases/Test06/ -r
+# cp ${testDir}/testCases/Test06/test06.sh ${runTestDir}/testCases/Test06/
+# #cp ${testDir}/testCases/Test06/t*Test06.nativeFortran.outb ${runTestDir}/testCases/Test06/
+# # run it...  
+# ./test06.sh
 
 
 echo "Rtest End"

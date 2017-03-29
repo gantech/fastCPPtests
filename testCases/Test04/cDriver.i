@@ -12,6 +12,7 @@ nEveryCheckPoint: 800
 Turbine0:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -21,6 +22,7 @@ Turbine0:
 Turbine1:
   procNo: 1
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -30,6 +32,7 @@ Turbine1:
 Turbine2:
   procNo: 2
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -39,6 +42,7 @@ Turbine2:
 Turbine3:
   procNo: 2
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -48,6 +52,7 @@ Turbine3:
 Turbine4:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -57,6 +62,7 @@ Turbine4:
 Turbine5:
   procNo: 1
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -66,6 +72,7 @@ Turbine5:
 Turbine6:
   procNo: 2
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -75,6 +82,7 @@ Turbine6:
 Turbine7:
   procNo: 2
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -84,6 +92,7 @@ Turbine7:
 Turbine8:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -93,6 +102,7 @@ Turbine8:
 Turbine9:
   procNo: 1
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -102,6 +112,7 @@ Turbine9:
 Turbine10:
   procNo: 2
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -111,6 +122,7 @@ Turbine10:
 Turbine11:
   procNo: 2
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -120,6 +132,7 @@ Turbine11:
 Turbine12:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -129,6 +142,7 @@ Turbine12:
 Turbine13:
   procNo: 1
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -138,6 +152,7 @@ Turbine13:
 Turbine14:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -147,6 +162,7 @@ Turbine14:
 Turbine15:
   procNo: 1
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -156,6 +172,7 @@ Turbine15:
 Turbine16:
   procNo: 0
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"
@@ -165,6 +182,7 @@ Turbine16:
 Turbine17:
   procNo: 1
   turbine_base_pos: [ 0.0, 0.0, 0.0 ]
+  turbine_hub_pos: [ 0.0, 0.0, 0.0 ]
   num_force_pts_blade: 0
   num_force_pts_tower: 0
   restart_filename: "blah"

@@ -13,6 +13,7 @@ else
     else
 	mpirun -np 4 $cFAST &> log.Test04
     fi
+    cat turbineAlloc.0.txt turbineAlloc.1.txt turbineAlloc.2.txt turbineAlloc.3.txt >> log.Test04
     diff log.Test04 log.Test04.gold &> /dev/null
     didSimulationDiffAnywhere="$?"
 fi
